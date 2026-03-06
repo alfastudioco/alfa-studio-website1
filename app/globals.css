@@ -1,0 +1,37 @@
+body {
+  margin:0;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.header {
+  background:#111;
+  color:white;
+  padding:20px;
+}
+
+.hero {
+  padding:120px 20px;
+  text-align:center;
+  background:#222;
+  color:white;
+}
+
+.hero-logo {
+  max-width:500px;
+  margin:auto;
+}
+
+.section {
+  padding:80px 20px;
+}
+
+.grid {
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:20px;
+}
+
+.card {
+  padding:30px;
+  border:1px solid #ddd;
+}
